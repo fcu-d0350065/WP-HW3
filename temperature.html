@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>temperature editor</title>
+		<script type = "text/javascript">
+			var tempC;
+			var tempF;
+			var num1;
+			
+			tempC = window.prompt("Enter Celsius temperature");
+			num1 = parseInt( tempC );
+			
+			tempF = num1 * 9 / 5 + 32;
+			
+			document.writeln("<h1>You entered temperature is " + tempC +"°C</h1>");
+			document.writeln("<h1>Transport to Fahrenheit temperature is " + tempF +"°F</h1>");
+		</script>
+	</head>
+</html>
