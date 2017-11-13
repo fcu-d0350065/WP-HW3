@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 
+<!-- First HTML5 Exemple. -->
 <html>
-	<head>
+	<head><!--網頁名稱-->
 		<meta charset = "utf-8">
-		<title>temperature editor</title>
+		<title>Temperature Conversion Program in JavaScript</title>
 		<script type = "text/javascript">
-			var tempC;
-			var tempF;
-			var num1;
+			<!--
+			var C;
 			
-			tempC = window.prompt("Enter Celsius temperature");
-			num1 = parseInt( tempC );
+			C = window.prompt("Please enter the Celsius Temperature");
 			
-			tempF = num1 * 9 / 5 + 32;
+			function Conversion(C){
+			return 9/5 * C + 32;
+			}
 			
-			document.writeln("<h1>You entered temperature is " + tempC +"°C</h1>");
-			document.writeln("<h1>Transport to Fahrenheit temperature is " + tempF +"°F</h1>");
+			document.writeln( "<h1>The "+ C +" °C is equal " + Conversion(C) + " °F</h1>");
+			 //-->
 		</script>
 	</head>
+	<body>
+	</body>
 </html>
